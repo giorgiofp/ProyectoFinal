@@ -1,0 +1,36 @@
+@import "variables";
+
+/*VARIABLES*/
+$altoPrincipal: 300px;
+
+/*MIXIN*/
+@mixin cabezaPagina {
+    display: flex;
+    height: $altoPrincipal - 100px;    
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*pagina jabones*/
+
+/*logo*/
+.cabeza__logo{
+    @include cabezaPagina;    
+}
+
+.cabeza__logo--imagen{
+    display: flex;
+      
+}
+/*fin*/
+
+.grupo_jabones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*fin*/
+

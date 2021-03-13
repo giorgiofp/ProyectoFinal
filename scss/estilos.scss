@@ -1,0 +1,265 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "variables";
+@import "velas";
+@import "jabones";
+@import "conjuntos";
+@import "contacto";
+
+
+h1{
+    display: none;
+}
+
+/*pie pagina index*/
+.pie_pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+    height: 200px;
+}
+
+.redes{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+
+.far{
+font-size: 35px;
+padding: 10px;
+}
+
+
+.fab{
+font-size: 35px;
+padding: 10px;
+}
+
+
+.redes a{
+color: rgb(0, 0, 0);
+}
+
+
+.redes a:hover{
+color: rgb(255, 35, 35);
+}
+           
+/*fin*/
+
+
+
+
+
+/*menu completo*/
+.navbar {
+    background-color: #ffffff;
+}
+
+.nav-link {
+    color: rgb(253, 69, 69);
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: rgb(29, 84, 129);
+}
+
+.navbar-toggler {
+    border: solid 2px black;
+
+}
+
+/*fin*/
+
+/*logo*/
+.logo {
+    display: flex;
+    height: 200px;    
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fotologo img{
+    display: flex;
+      
+}
+/*fin*/
+
+.contactenos {
+    display: block;
+    padding: 2em 10em;
+}        
+
+
+
+/*carrusel index*/
+#carouselExampleControls{
+    height: 550px;
+    width: 800px;
+}
+
+.fotosportada{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.carousel{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-slide {
+    width: 800px;   
+}
+/*fin*/
+
+/*parrafos de index*/
+.parrafos{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;  
+        p{
+        color: rgb(66, 66, 66);
+        font-style: oblique;
+        padding: 5px;
+        }
+}
+
+
+/*fin*/
+
+
+
+/*contenedores parrafo index*/
+h2{
+    color: rgb(255, 35, 35);
+    font-size: 25px;
+}
+
+.parrafo1{
+    height: 200px;
+    width: 300px;
+}
+
+.parrafo2{
+    height: max-content;
+    width: 300px;
+}
+
+.parrafo3{
+    height: 200px;
+    width: 300px;
+}
+/*fin*/
+
+
+/*grid areas, tamaños, distribución de columnas y filas*/
+header{
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+    margin-top: 10px;
+}
+
+main{
+    grid-area: main;
+    height: 550px;
+    background-color: rgb(10, 10, 10);
+    padding-top: 5px;
+}
+
+section{
+    grid-area: section;
+    text-align: center;
+    
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 150px;
+    grid-template-areas: "header header header" 
+                            "nav nav nav" 
+                            "main main main"
+                            "section section footer"
+                         
+}
+/*fin*/
+
+/* media query----------------------------------------------*/
+
+@media screen and (max-width:1280px){
+
+}
+
+
+
+@media (min-width: 300px) and (max-width: 800px){
+    .grid{
+        display: grid;
+        grid-template-columns: 480px;
+        grid-template-areas: "header"
+                              "nav" 
+                             "main"
+                             "section"
+                             "footer"                         
+    }
+
+
+
+.parrafos{
+    display: flex;
+    flex-direction: column;
+}
+
+.fotologo img{
+    width: 120px;
+    height: 120px;
+}
+
+.main{
+    height: 50%;
+}
+
+.carousel-control-prev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-control-next{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    
+}

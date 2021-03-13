@@ -1,0 +1,360 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2{
+    color: rgb(29, 84, 129);
+}
+
+p{
+    color: grey;
+    font-style: oblique;
+    padding: 5px;
+}
+
+body{
+    margin: 10px;
+    width: auto;
+}
+.color_redes{
+    color: black;
+    font-weight: bold;
+}
+
+/*pie pagina index*/
+.pie_pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*fin*/
+
+/*pie pagina secundarias*/
+.piepag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.redespag{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end
+    
+}
+/*fin*/
+
+/*tamaño iconos redes*/
+.far{
+    font-size: 35px;
+    padding: 10px;
+}
+
+.fab{
+    font-size: 35px;
+    padding: 10px;
+}
+/*fin*/
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+
+/*menu completo*/
+#menu {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 50px;
+    text-decoration: none;  
+    border: 1px solid black;  
+}
+
+#menu li{
+    flex: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-decoration: none;     
+    text-align: center;
+    color: inherit;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+}
+
+    #menu li:hover{
+    background-color: rgb(255, 255, 86);
+    color: rgb(29, 84, 129);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    display: block;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.nav-link{
+    color: coral;
+    font-size: 20px;
+}
+/*fin*/
+
+/*logo*/
+.logo {
+    display: flex;
+    height: 300px; 
+    padding-bottom: 20px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.fotologo img{
+    display: flex;
+      
+}
+/*fin*/
+
+.contactenos {
+    display: block;
+    padding: 2em 10em;
+}        
+
+.promociones{
+    display: block;
+    padding: 2em 10em;
+}
+
+.velas{
+    display: block;
+    padding: 2em 10em;
+}
+
+.jabones{
+    display: block;
+    padding: 2em 10em;
+}
+
+/*fotos de portada*/
+.portadauno{
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.portadauno img{
+    width: 500px;
+    height: 350px;   
+}
+/*fin*/
+
+
+
+
+/*carrusel index*/
+#carouselExampleControls{
+    height: 550px;
+    width: 800px;
+}
+
+.fotosportada{
+    margin-top: 10px;  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.carousel{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-slide {
+    width: 800px;   
+}
+/*fin*/
+
+/*parrafos de index*/
+.parrafos{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-image: linear-gradient(to top, rgb(255, 255, 72), white);
+}
+/*fin*/
+
+/*pagina de velas*/
+.grupo_velas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    margin-left: 20px;
+    margin-right: 20px;  
+    height: 1300px;   
+}
+
+.grupo_velas img {
+    height: 250px;
+    width: 350px;
+}
+/*fin*/
+
+
+/*pagina jabones*/
+.grupo_jabones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-justify-content-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+/*fin*/
+
+
+
+/*contenedores parrafo index*/
+.parrafo1{
+    height: 200px;
+    width: 300px;
+}
+
+.parrafo2{
+    height: max-content;
+    width: 300px;
+}
+
+.parrafo3{
+    height: 200px;
+    width: 300px;
+}
+/*fin*/
+
+
+/*grid areas, tamaños, distribución de columnas y filas*/
+header{
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+    margin-top: 10px;
+}
+
+main{
+    grid-area: main;
+    border: 1px solid black;
+}
+
+section{
+    grid-area: section;
+    text-align: center;
+    border: 1px solid black;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 150px;
+    grid-template-areas: "header header header"
+                          "nav nav nav" 
+                         "main main main"
+                         "section section footer"
+                         
+}
+/*fin*/
+
+/* media query----------------------------------------------*/
+
+@media screen and (max-width:1280px){
+
+}
+
+@media screen and (max-width:800px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "header header"
+                              "nav nav" 
+                             "main main"
+                             "main main"
+                             "section section"
+                             "footer footer"                        
+    }
+
+    .portadauno img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .grid{
+        display: grid;
+        grid-template-columns: 480px;
+        grid-template-areas: "header"
+                              "nav" 
+                             "main"
+                             "section"
+                             "footer"                         
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portadauno img {
+        width: 50%;
+        height: 50%;
+    }
+
+}

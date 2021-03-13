@@ -1,0 +1,53 @@
+@import "variables";
+
+/*pagina de velas*/
+.grupo_velas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    margin-left: 20px;
+    margin-right: 20px;  
+    height: 1500px; 
+    margin-top: 20px;  
+
+        img {
+        height: 300px;
+        width: 430px;
+        }
+}
+
+.redespag a{
+    color: rgb(0, 0, 0);
+}
+
+.redespag a:hover{
+    color: $colorpricipal;
+}
+
+/*pie pagina secundarias*/
+.piepag {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.redespag{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+/*fin*/
+
+/*fin*/
