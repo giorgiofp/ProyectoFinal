@@ -35,7 +35,7 @@ div.vela img.izquierda {
 }
 
 .redespag a {
-  color: black;
+  color: #133653;
 }
 
 .redespag a:hover {
@@ -191,7 +191,7 @@ h1 {
 }
 
 .redes a {
-  color: black;
+  color: #133653;
 }
 
 .redes a:hover {
@@ -205,12 +205,12 @@ h1 {
 }
 
 .nav-link {
-  color: #fd4545;
+  color: #ff2323;
   font-size: 20px;
 }
 
 .nav-link:hover {
-  color: #1d5481;
+  color: #133653;
 }
 
 .navbar-toggler {

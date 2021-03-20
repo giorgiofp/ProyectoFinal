@@ -49,7 +49,7 @@ padding: 10px;
 
 
 .redes a{
-color: rgb(0, 0, 0);
+color: $colorsecundario;
 }
 
 
@@ -69,12 +69,12 @@ color: rgb(255, 35, 35);
 }
 
 .nav-link {
-    color: rgb(253, 69, 69);
+    color: $colorpricipal;
     font-size: 20px;
 }
 
 .nav-link:hover {
-    color: rgb(29, 84, 129);
+    color: $colorsecundario;
 }
 
 .navbar-toggler {
