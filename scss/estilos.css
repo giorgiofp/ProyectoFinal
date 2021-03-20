@@ -29,6 +29,11 @@
   width: 430px;
 }
 
+div.vela img.izquierda {
+  float: left;
+  margin-right: 15px;
+}
+
 .redespag a {
   color: black;
 }
