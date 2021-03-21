@@ -34,6 +34,10 @@ div.vela img.izquierda {
   margin-right: 15px;
 }
 
+aside {
+  color: #424242;
+}
+
 .redespag a {
   color: #133653;
 }
@@ -147,6 +151,42 @@ ul {
   color: #424242;
   font-style: oblique;
   padding: 5px;
+}
+
+.parrafoconjunto {
+  margin-bottom: 500px;
+}
+
+.foto1 {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #8a8a8a;
+  float: left;
+  width: 350px;
+}
+
+.foto2 {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #8a8a8a;
+  float: left;
+  width: 350px;
+}
+
+.foto3 {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #8a8a8a;
+  float: left;
+  width: 350px;
+}
+
+.foto4 {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #8a8a8a;
+  float: left;
+  width: 350px;
 }
 
 .header {
