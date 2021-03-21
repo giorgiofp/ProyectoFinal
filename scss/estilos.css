@@ -130,6 +130,25 @@ ul {
 }
 
 /*fin*/
+.parrafojabon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 200px;
+  margin-top: 20px;
+}
+
+.parrafojabon p {
+  color: #424242;
+  font-style: oblique;
+  padding: 5px;
+}
+
 .header {
   color: #1d5481;
   font-size: 27px;
