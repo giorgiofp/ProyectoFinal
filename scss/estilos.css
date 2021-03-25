@@ -438,12 +438,12 @@ footer {
 
 /*fin*/
 /* media query----------------------------------------------*/
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 980px) {
   .grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 480px;
-        grid-template-columns: 480px;
+    -ms-grid-columns: 700px;
+        grid-template-columns: 700px;
         grid-template-areas: "header" "nav"  "main" "section" "footer";
   }
   .parrafos {
@@ -460,7 +460,9 @@ footer {
     height: 120px;
   }
   .main {
-    height: 50%;
+    height: 100%;
+    width: 100%;
+    float: none;
   }
   .carousel-control-prev {
     display: -webkit-box;
@@ -485,6 +487,21 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 400px;
+        grid-template-columns: 400px;
+        grid-template-areas: "header" "nav"  "main" "section" "footer";
+  }
+  .main {
+    height: 100%;
+    width: 400px;
+    float: none;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
