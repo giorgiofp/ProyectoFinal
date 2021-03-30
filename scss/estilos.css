@@ -36,12 +36,14 @@ div.vela img.izquierda {
 }
 
 aside {
-  color: #424242;
+  color: rgba(66, 66, 66, 0.952);
+  font-size: 30px;
+  font-family: 'Satisfy', cursive;
 }
 
 .vela {
   border: 2px solid transparent;
-  background-color: #e1f5f2;
+  background-color: #c8fcf4;
 }
 
 .redespag a {
@@ -70,7 +72,7 @@ aside {
   text-align: center;
   border: 2px solid transparent;
   border-radius: 60px 20px 5px;
-  background-color: #ffedcb;
+  background-color: #f8fa85;
 }
 
 .redespag {
@@ -157,8 +159,7 @@ ul {
 
 .parrafojabon p {
   color: #424242;
-  font-style: oblique;
-  padding: 5px;
+  font-family: 'Mulish', sans-serif;
 }
 
 .parrafojabon li {
@@ -182,7 +183,7 @@ ul {
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 10px;
-  background-color: #e1f5f2;
+  background-color: #c8fcf4;
 }
 
 .parrafoconjunto {
@@ -220,10 +221,11 @@ ul {
 .texto-conjunto {
   width: 70%;
   color: #29677c;
-  font-size: 25px;
+  font-size: 24px;
   border: 2px solid transparent;
   border-radius: 60px 20px 5px 90px;
   background-color: #e2d0ee;
+  font-family: 'Cinzel', serif;
 }
 
 .mas-imagenes {
@@ -328,7 +330,7 @@ h1 {
           justify-content: space-evenly;
   border: 2px solid transparent;
   border-radius: 20px 80px;
-  background-color: #ffedcb;
+  background-color: #f8fa85;
 }
 
 .far {
@@ -444,7 +446,7 @@ h1 {
   height: auto;
   border: 2px solid transparent;
   border-radius: 80px 20px;
-  background-color: #e1f5f2;
+  background-color: #c8fcf4;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -455,8 +457,8 @@ h1 {
 }
 
 .parrafos p {
-  color: #424242;
-  font-style: oblique;
+  color: #50246d;
+  font-family: 'Manrope', sans-serif;
   padding: 5px;
 }
 
