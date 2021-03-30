@@ -23,7 +23,7 @@ h1{
     justify-content: space-evenly;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 5px;
+    margin-right: 20px;
     text-align: center;
     height: 200px;
 }
@@ -33,6 +33,9 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
+border: 2px solid transparent;
+border-radius: 20px 80px;
+background-color: #ffedcb;
 }
 
 
@@ -136,9 +139,14 @@ color: rgb(255, 35, 35);
     display: flex;
     width: auto;
     height: auto;
+    border: 2px solid transparent;
+    border-radius: 80px 20px;
+    background-color: #e1f5f2;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    margin-top: 20px;  
+    margin-top: 20px; 
+    margin-right: 40px;
+    margin-left: 40px; 
         p{
         color: rgb(66, 66, 66);
         font-style: oblique;
@@ -159,7 +167,7 @@ h2{
 
 .parrafo1{
     height: 200px;
-    width: 300px;
+    width: 300px;    
 }
 
 .parrafo2{

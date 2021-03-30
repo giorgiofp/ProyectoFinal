@@ -19,10 +19,16 @@
 div.vela img.izquierda {
     float: left;
     margin-right: 15px;
+    border: 5px solid#ce9eac;
 }
 
 aside{
     color: rgb(66, 66, 66);
+}
+
+.vela{
+    border: 2px solid transparent;
+    background-color: #e1f5f2;
 }
   
 
@@ -43,13 +49,15 @@ aside{
     margin-bottom: 20px;
     margin-left: 5px;
     text-align: center;
+    border: 2px solid transparent ;
+    border-radius: 60px 20px 5px;
+    background-color: #ffedcb;              
 }
 
 .redespag{
     display: flex;
     flex-direction: row;
-    align-items: flex-end
-    
+    align-items: flex-end; 
 }
 
 ul{
@@ -60,4 +68,3 @@ ul{
 }
 /*fin*/
 
-/*fin*/

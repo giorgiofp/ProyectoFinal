@@ -38,7 +38,7 @@ $altoPrincipal: 300px;
     width: auto;
     height: auto;
     justify-content: space-evenly;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     margin-top: 20px;  
         p{
         color: rgb(66, 66, 66);
@@ -46,7 +46,20 @@ $altoPrincipal: 300px;
         padding: 5px;
         }
         li {
-            list-style: none;
+            list-style: none; 
+            color: #50246d;           
         }
+}
+
+.listaromas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 100px 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #e1f5f2;    
 }
 

@@ -1,7 +1,7 @@
 @import "variables";
 
 .parrafoconjunto{
-    margin-bottom: 500px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -17,7 +17,13 @@
 }
 
 .texto-conjunto {
-    width: 90%;
+    width: 70%;
+    color:#29677c;
+    font-size: 25px;
+    border: 2px solid transparent;
+    border-radius: 60px 20px 5px 90px;
+    background-color: #e2d0ee;
+    
 }
 
 .mas-imagenes {
@@ -28,15 +34,19 @@
 }
 
 .foto1{
-    padding: 10px; margin: 10px; border: 2px solid rgb(138, 138, 138); width: 350px;
+    padding: 10px; margin: 10px; border: 3px solid #3e9089; border-radius: 10px; width: 350px;
 }
 .foto2{
-    padding: 10px; margin: 10px; border: 2px solid rgb(138, 138, 138); width: 350px;
+    padding: 10px; margin: 10px; border: 3px solid #3e9089; border-radius: 10px; width: 350px;
 }
 .foto3{
-    padding: 10px; margin: 10px; border: 2px solid rgb(138, 138, 138); width: 350px;
+    padding: 10px; margin: 10px; border: 3px solid #3e9089; border-radius: 10px; width: 350px;
 }
 .foto4{
-    padding: 10px; margin: 10px; border: 2px solid rgb(138, 138, 138); width: 350px;
+    padding: 10px; margin: 10px; border: 3px solid #3e9089; border-radius: 10px; width: 350px;
 }
 
+.piepag{
+    margin-left: 20px;
+    margin-right: 20px;
+}

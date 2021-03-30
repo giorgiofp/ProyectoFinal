@@ -32,10 +32,16 @@
 div.vela img.izquierda {
   float: left;
   margin-right: 15px;
+  border: 5px solid #ce9eac;
 }
 
 aside {
   color: #424242;
+}
+
+.vela {
+  border: 2px solid transparent;
+  background-color: #e1f5f2;
 }
 
 .redespag a {
@@ -62,6 +68,9 @@ aside {
   margin-bottom: 20px;
   margin-left: 5px;
   text-align: center;
+  border: 2px solid transparent;
+  border-radius: 60px 20px 5px;
+  background-color: #ffedcb;
 }
 
 .redespag {
@@ -93,7 +102,6 @@ ul {
           justify-content: center;
 }
 
-/*fin*/
 /*fin*/
 /*VARIABLES*/
 /*MIXIN*/
@@ -143,7 +151,7 @@ ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
   margin-top: 20px;
 }
 
@@ -155,10 +163,30 @@ ul {
 
 .parrafojabon li {
   list-style: none;
+  color: #50246d;
+}
+
+.listaromas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid transparent;
+  border-radius: 100px 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: #e1f5f2;
 }
 
 .parrafoconjunto {
-  margin-bottom: 500px;
+  margin-bottom: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,7 +218,12 @@ ul {
 }
 
 .texto-conjunto {
-  width: 90%;
+  width: 70%;
+  color: #29677c;
+  font-size: 25px;
+  border: 2px solid transparent;
+  border-radius: 60px 20px 5px 90px;
+  background-color: #e2d0ee;
 }
 
 .mas-imagenes {
@@ -211,29 +244,38 @@ ul {
 .foto1 {
   padding: 10px;
   margin: 10px;
-  border: 2px solid #8a8a8a;
+  border: 3px solid #3e9089;
+  border-radius: 10px;
   width: 350px;
 }
 
 .foto2 {
   padding: 10px;
   margin: 10px;
-  border: 2px solid #8a8a8a;
+  border: 3px solid #3e9089;
+  border-radius: 10px;
   width: 350px;
 }
 
 .foto3 {
   padding: 10px;
   margin: 10px;
-  border: 2px solid #8a8a8a;
+  border: 3px solid #3e9089;
+  border-radius: 10px;
   width: 350px;
 }
 
 .foto4 {
   padding: 10px;
   margin: 10px;
-  border: 2px solid #8a8a8a;
+  border: 3px solid #3e9089;
+  border-radius: 10px;
   width: 350px;
+}
+
+.piepag {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .header {
@@ -265,7 +307,7 @@ h1 {
           justify-content: space-evenly;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 5px;
+  margin-right: 20px;
   text-align: center;
   height: 200px;
 }
@@ -284,6 +326,9 @@ h1 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  border: 2px solid transparent;
+  border-radius: 20px 80px;
+  background-color: #ffedcb;
 }
 
 .far {
@@ -397,11 +442,16 @@ h1 {
   display: flex;
   width: auto;
   height: auto;
+  border: 2px solid transparent;
+  border-radius: 80px 20px;
+  background-color: #e1f5f2;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-bottom: 20px;
   margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .parrafos p {
